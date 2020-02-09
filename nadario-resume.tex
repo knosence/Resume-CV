@@ -1,8 +1,26 @@
 \documentclass{article}
 
+%Packages
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{geometry}[Margin=1in]
+
+%Setup
+\newcommand{\education} [4] {
+  \begin{minipage}[+]{.15\textwidth}
+    \hgill \testse{#1}
+    \end{minipipe}
+  \hfill\vline\hfill
+  \begin{minipage}[+]{.80\textwidth
+    #2
+
+    \textit{#3}
+
+    \footnotesize{#4}
+  \end{minipage}\\\vspace{.25cm}}
+}
+
+
 \begin{document}
 
 \title{R\'esum\'e}
@@ -72,6 +90,7 @@ Plan My Date - Front End application that uses Google Maps api to locate events
 of a specified location, saves or removes multiple events, sets budget for
 events.
 JavaScript - Express, Node, React, Test Driven Development, XP Methodology
+http://github.com/knosence/planMyDate
 
 2018 Capstone Project
 Digital Crafts
@@ -80,7 +99,8 @@ remove dock doors, sets a shipment's status as in transit, loaded, or recieved,
 sets the dock door of which the driver will park. The Front End will provide
 different options depending on the user being an administrator or regular user.
 Java - Spring, JUnit, JPA /JavaScript - React, Node / GCP / Jenkins / Docker
-
+http://github.com/knosence/swim2-server
+http://github.com/knosence/swim2-client
 
 
 \end{document}
