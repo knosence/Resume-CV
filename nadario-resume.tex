@@ -6,25 +6,36 @@
 \usepackage{geometry}[Margin=1in]
 
 %Setup
-\newcommand{\education} [4] {
-  \begin{minipage}[+]{.15\textwidth}
-    \hgill \testse{#1}
-    \end{minipipe}
-  \hfill\vline\hfill
-  \begin{minipage}[+]{.80\textwidth
-    #2
-
-    \textit{#3}
-
-    \footnotesize{#4}
-  \end{minipage}\\\vspace{.25cm}}
-}
-
-
-\begin{document}
-
 \title{R\'esum\'e}
 \author{NaDario M. Seays}
+
+\newcommand{\education}[4]{
+\ifthenelse{\isempty{#3}}
+{\subedu}{#1}{#2}{
+
+  \begin{minipage}[t]{.15\textwidth}
+    \hfill \testsc{#1}
+    \end{minipage}
+  \hfill\vline\hfill
+  \begin{minipage}[t]{.80\textwidth}
+    {\bf#2}\\\textit{#3} \footnotesize{#4}
+  \end{minipage}\\
+  \vspace{.2cm}
+}}
+
+\newcommand{subedu}[2]{
+
+  \begin{minipage}[t]{.15\linewidth}
+    \hfill \textsc{#1}
+    \end{minipage}
+  \hfill\vline\hfill
+  \begin{minipage}[t]{.80\linewidth}
+    #2
+  \end{minipage}\\
+  \vspace{.25cm}
+}
+
+\begin{document}
 
 \maketitle
 
@@ -59,20 +70,20 @@ SQL, PostgreSQL
 Linux, Google Cloud Platform, Linode, Docker, Jenkins, Vim, Emacs, Design Patterns
 
 \section{Education}
-2015 - 2018 Bachalers of Science
-American InterContinental University
-The Specialization of Software Development And Analysis
-3.9 / 4.0
+\education{2015 - 2018}
+{American InterContinental University}
+{Bachalers of Science - The Specialization of Software Development And Analysis}
+{3.97 / 4.00}
 
-2018 Software Development Training
-Digital Crafts
-Full-Stack Development Sponsered by Atos Syntel
-16 Week Training
+\education{2018 - 2018}
+{Digital Crafts}
+{Software Development Training - Full-Stack Development Sponsered by Atos Syntel}
+{16 Week Training}
 
-2019 - Present Masters of Science
-American InterContinental University
-The Specialization of IT Project Managnent
-
+\eduction{2019 - now }
+{Masters of Science - American InterContinental University}
+{The Specialization of IT Project Managnent}
+{3.85 / 4.00}
 
 %\section{Job Experience}
 \section{Projects}
