@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.2.9)  11 FEB 2020 02:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.2.9)  12 FEB 2020 05:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,21 +467,38 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 \cvitemwithcommentmainlength=\skip78
 \cvitemwithcommentcommentlength=\skip79
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcolorblack.sty
-Package: moderncvcolorblack 2015/07/28 v2.0.0 modern curriculum vitae and lette
-r color scheme: black
-))
-Runaway argument?
-! File ended while scanning use of \social .
-<inserted text> 
-                \par 
-l.2 
-    
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+(/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcolorred.sty
+Package: moderncvcolorred 2015/07/28 v2.0.0 modern curriculum vitae and letter 
+color scheme: red
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count182
+\Gm@cntv=\count183
+\c@Gm@tempcnt=\count184
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks20
+))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -495,10 +512,9 @@ Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
@@ -526,16 +542,16 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen141
-\Hy@linkcounter=\count182
-\Hy@pagecounter=\count183
+\@linkdim=\dimen149
+\Hy@linkcounter=\count185
+\Hy@pagecounter=\count186
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count184
+\Hy@SavedSpaceFactor=\count187
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -554,12 +570,12 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count185
+\c@Hy@tempcnt=\count188
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen142
-\Fld@menulength=\count186
-\Field@Width=\dimen143
-\Fld@charsize=\dimen144
+\XeTeXLinkMargin=\dimen150
+\Fld@menulength=\count189
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -569,9 +585,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count187
-\c@Item=\count188
-\c@Hfootnote=\count189
+\Hy@abspage=\count190
+\c@Item=\count191
+\c@Hfootnote=\count192
 )
 Package hyperref Info: Driver (default): hdvips.
 
@@ -580,13 +596,13 @@ File: hdvips.def 2018/02/06 v6.86b Hyperref driver for dvips
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
 File: pdfmark.def 2018/02/06 v6.86b Hyperref definitions for pdfmark specials
-\pdf@docset=\toks18
+\pdf@docset=\toks21
 \pdf@box=\box46
-\pdf@toks=\toks19
-\pdf@defaulttoks=\toks20
-\HyField@AnnotCount=\count190
-\Fld@listcount=\count191
-\c@bookmark@seq@number=\count192
+\pdf@toks=\toks22
+\pdf@defaulttoks=\toks23
+\HyField@AnnotCount=\count193
+\Fld@listcount=\count194
+\c@bookmark@seq@number=\count195
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -638,16 +654,50 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 788.14136pt, 14.22636pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=788.14136pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 \AtBeginShipoutBox=\box47
 Package hyperref Info: Link coloring OFF on input line 3.
-
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count193
+\c@section@level=\count196
 )
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -701,28 +751,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 12.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 7.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
  (./nadario_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 7.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 7.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 14.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
 Package rerunfilecheck Info: File `nadario_resume.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 9081AE5241171EFDA5BCB693B63885CB;88.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21485 strings out of 492702
- 360359 string characters out of 6134531
- 438016 words of memory out of 5000000
- 25198 multiletter control sequences out of 15000+600000
- 565440 words of font info for 47 fonts, out of 8000000 for 9000
+ 21965 strings out of 492702
+ 367611 string characters out of 6134531
+ 453921 words of memory out of 5000000
+ 25666 multiletter control sequences out of 15000+600000
+ 573781 words of font info for 50 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 54i,11n,67p,800b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,67p,800b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on nadario_resume.dvi (1 page, 4732 bytes).
+Output written on nadario_resume.dvi (1 page, 13372 bytes).

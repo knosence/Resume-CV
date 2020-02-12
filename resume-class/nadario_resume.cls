@@ -4,7 +4,7 @@
 % Moderncv themes
 \moderncvstyle{banking} %Style options 'casual' (default), 'classic',
                         %'oldstyle', 'banking'
-\moderncvcolor{black} %color options 'blue' (default), 'orange', 'purple',
+\moderncvcolor{red} %color options 'blue' (default), 'orange', 'purple',
                       %'grey', 'black', 'green', 'red'
 
 %personal data
@@ -15,5 +15,17 @@
         {Lithonia, Ga, 30058}{USA}
 \phone[mobile]{1+~(470)~265~9368}
 \email{nadario.seays@gmail.com}
+\homepage{www.nadarioseays.com}
 \social[github][github.com/knosence]{knosence}
-\social[linkedin][linkedin.com/in/nadario-seays-a390962a]
+\social[linkedin][linkedin.com/in/nadario-seays-a390962a]{NaDario Seays}
+
+%character encoding
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{geometry} %changes margins across ther page
+\geometry{
+  left = 15mm,
+  right = 15mm,
+  top = 15mm,
+  bottom = 5mm
+}
+
