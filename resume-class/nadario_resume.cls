@@ -10,7 +10,7 @@
 %personal data
 \name{NaDario}{Seays}
 
-%\title{Jr Software Developer}
+\title{Jr Developer}
 \address{5523 Wellborn Creek Drive}
         {Lithonia, Ga, 30058}{USA}
 \phone[mobile]{1+~(470)~265~9368}

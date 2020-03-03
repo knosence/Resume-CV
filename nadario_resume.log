@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.2.9)  16 FEB 2020 09:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2020.2.9)  2 MAR 2020 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,42 +752,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 7.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 6.
+
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 13.
+
+
+Underfull \hbox (badness 10000) detected at line 13
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 14
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 15
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 16
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 17
+\T1/lmss/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 18
+\T1/lmss/m/n/8 .
+ []
+
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 12.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (./nadario_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package rerunfilecheck Info: File `nadario_resume.out' has not changed.
+(rerunfilecheck)             Checksum: B89DBC3A7A4402E11D6B68C483941042;1213.
 
-
-Package rerunfilecheck Warning: File `nadario_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `nadario_resume.out':
-(rerunfilecheck)             Before: 9081AE5241171EFDA5BCB693B63885CB;88
-(rerunfilecheck)             After:  60E83F02A5D15FF39F88B08DD8C04090;171.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 21965 strings out of 492702
- 367611 string characters out of 6134531
- 454921 words of memory out of 5000000
- 25666 multiletter control sequences out of 15000+600000
- 573781 words of font info for 50 fonts, out of 8000000 for 9000
+ 21986 strings out of 492702
+ 367921 string characters out of 6134531
+ 459977 words of memory out of 5000000
+ 25686 multiletter control sequences out of 15000+600000
+ 582141 words of font info for 53 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  54i,11n,67p,800b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on nadario_resume.dvi (1 page, 21092 bytes).
+Output written on nadario_resume.dvi (1 page, 42236 bytes).
